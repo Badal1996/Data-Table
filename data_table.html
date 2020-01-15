@@ -1,0 +1,47 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>Table Demo</title>
+	<script src="js/jquery-3.4.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+	<script src="http://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#myTable").dataTable();
+		});
+	</script>
+</head>
+<body>
+	<table id="myTable" class="table-responsive">
+		<thead>
+			<tr>
+				<th>S.no</th>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Phone NO</th>
+				<th>Address</th>
+				<th>Date</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Badal</td>
+				<td>Gupta</td>
+				<td>9031735584</td>
+				<td>Bangalore</td>
+				<td>1/11/2020</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Vaibhav</td>
+				<td>Kumar</td>
+				<td>9801113263</td>
+				<td>Bangalore</td>
+				<td>1/10/2020</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>
